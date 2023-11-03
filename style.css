@@ -183,23 +183,32 @@ body, h2, p {
 /* Introduction */
 
 .introbox {
-   margin-right: 50%;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.introbox h1{
-    font-family: 'Times New Roman', Times, serif;
+.title{
+    font-size: 40px;
+    margin-right: 20px;
     float: left;
-    margin-left: 8%;
+
 }
 
-.introbox img{
-
-    width: 400px;
-    height: 400x;
-    padding: 20px;
+.title img {
+    width: 300px;
+    height: 300px; 
+    float: left; 
+    margin-right: 20px;
     margin-left: 5%;
 }
 
+.introbox p {
+    font-size: 28px;
+    float: right; 
+    margin-top: 10%;
+}
 .objec{
     padding: 10px;
     margin: 5px;
